@@ -8,3 +8,19 @@ body {
     font-size: 2.2rem;
     font-family: 'Courier New', Courier, monospace;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
